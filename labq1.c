@@ -37,6 +37,7 @@ int hesapla(float number,int minPoint)
 int main()
 { 
     int student, x ;
+    
 
     printf("\n Please enter the number of students whose grade will be entered: \n") ;
     scanf("%d", &student);
