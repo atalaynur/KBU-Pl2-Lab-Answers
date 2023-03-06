@@ -15,6 +15,7 @@ int main()
     BodyMassIndex = weight / (height * height);
     printf("\nBody Mass Index = %d\n",BodyMassIndex);
      
+     
     if(BodyMassIndex < 18){
         printf("\nweak\n");
     }
