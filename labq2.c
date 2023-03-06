@@ -10,6 +10,7 @@ int main()
     printf("\n enter your height(m):\n ");
     scanf("%f",&height);
     printf("\nenter your weight:\n");
+    
     scanf("%d",&weight);
     BodyMassIndex = weight / (height * height);
     printf("\nBody Mass Index = %d\n",BodyMassIndex);
